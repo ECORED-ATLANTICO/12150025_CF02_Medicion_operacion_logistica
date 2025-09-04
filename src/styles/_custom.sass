@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 65%
+    right: 30%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 21%
+    right: 66%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 10%
 
 @keyframes float1
   0%
@@ -16,11 +21,9 @@
   100%
     transform: translateY(0px)
   
+///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal .tarjeta
   background-position: left 50% !important
-
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -30,3 +33,368 @@
 
 figcaption
   font-weight: normal
+
+.banner-principal__row .banner-principal__img
+  width: 500px !important
+  @media screen and (max-width: $bp-max-lg)
+    width: 400px !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner_interno.png") !important
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+//////////Background_Color///////////
+.bg-color
+  &-1
+    background-color: #CAE1F9 !important
+  &-2
+    background-color: #F2F4F6
+  &-3
+    background-color: #E5EBFB !important
+  &-4
+    background-color: #FEECE6 !important
+  &-5
+    color: #FE8849 !important
+  &-6
+    background-color: #FED8CC
+  &-7
+    color: #CB7F67 !important
+  &-8
+    color: #6291C2 !important
+  &-9
+    background-color: #F4F5F8
+  &-10
+    background-color: #F5EEC2
+  &-11
+    background-color: #E3EAF7
+  &-12
+    background-color: #CAE1F9 !important
+  &-13
+    background-color: #E5F0FC
+  &-14
+    background-color: #4A6D92
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
+  &-secundario
+    background-color: $color-secundario !important
+  &-sintesis
+    background-color: #F6F6F6
+
+///////Full Width Background///////////////////
+.bg-full-width, .bg-full-width-2
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width
+  background-size: cover
+.bg-full-width-2
+  background-size: contain !important
+
+///////////FondoImg//////////////////
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.png") !important
+    background-position: bottom
+    background-repeat: no-repeat
+    background-size: cover
+  &-2
+    background-image: url("../assets/curso/bg2.svg") !important
+    background-position: bottom
+    background-repeat: no-repeat
+    background-size: cover
+  &-3
+    background-image: url("../assets/curso/bg3.png") !important
+    background-position: bottom
+    background-repeat: no-repeat
+    background-size: cover
+  &-slider
+    background-image: url("../assets/curso/bg-slider.png") !important
+    background-position: bottom
+    background-repeat: no-
+    background-size: cover
+
+/////////IMG_100%_CAJON_MEDIO/////////
+.pst
+  position: relative
+  z-index: 2
+  &-2
+    border-top-right-radius:  100px
+.banner-text
+  background: linear-gradient(0deg,rgba(222, 222, 222, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(222, 222, 222, 1) 100%)
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -60px
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #283F65 !important
+      color: white
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #FEECE6
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #E6E6E6
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #CAE1F9
+
+.img-infografica__item
+  width: 7.5%
+
+///////////AJUSTES RESPONSIVE PUNTOS CALIENTES////////////
+.img-infografica__card
+  width: 400px
+  @media screen and (max-width: $bp-max-xs)
+    width: 300px !important
+    right: 15px !important
+  
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FE8849 !important
+  color: #fff
+.tabs-a__tab
+  background-color: #E5EBFB
+.tarjeta.color-acento-botones--borde
+  background-color: #F6F6F6
+  border: solid 4px #F6F6F6
+
+////////////AJUSTE TAMAÑO CONTERNEDOR IZQUIERO TABS-A//////////
+.tabs-a
+  @media (min-width: 1200px) 
+    .row
+      .col-xl-3 
+        flex: 0 0 auto
+        width: 38%
+      .col-xl-9
+        flex: 0 0 auto
+        width: 62%
+  @media (min-width: 992px) 
+    .row
+      .col-lg-4 
+        flex: 0 0 auto
+        width: 40%
+      .col-lg-8 
+        flex: 0 0 auto
+        width: 60%
+
+
+//////////COLOR_TEXTO_BOTON_REGRESAR///////////
+.barra-avance__boton--regresar span
+  color: white !important
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #7BB5F2
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -15px
+  width: 80px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 50px
+
+/////////CUSTOM TABS-C//////////
+.tabs-c__header 
+  margin-bottom: 0
+.tabs-c__content-item
+  background-color: #F7F7F7
+
+.section-pasos
+  padding: 2rem
+  .pasos-container
+    display: grid
+    gap: 3.5rem
+    grid-template-columns: repeat(3, 1fr)
+
+    // Tablet (2 columnas)
+    @media (max-width: 1024px)
+      grid-template-columns: repeat(2, 1fr)
+
+    // Móvil (1 columna)
+    @media (max-width: 768px)
+      grid-template-columns: 1fr
+    .paso
+      position: relative
+      background: #EAECF0
+      border-radius: 10px
+      padding: 2rem 1.5rem 1.5rem 3.5rem
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05)
+      transition: transform 0.3s ease
+
+      &:hover
+        transform: translateY(-5px)
+
+      .numero
+        position: absolute
+        left: -20px
+        top: 1rem
+        font-size: 5.5rem
+        font-weight: 600
+        color: #12263F
+        opacity: 0.9
+
+      .contenido
+        text-align: left
+
+        .icono
+          position: absolute
+          top: -30px
+          right: -10px
+          width: 70px
+          height: 70px
+          margin-bottom: 0.5rem
+          border-radius: 50%
+          display: flex
+          align-items: center
+          justify-content: center
+
+
+          img
+            width: 70px
+            height: 70px
+
+        h4
+          font-size: 1rem
+          font-weight: 700
+          margin-bottom: 0.3rem
+          color: #111
+
+        p
+          font-size: 0.9rem
+          color: #444
+          margin: 0
+
+  .linea-progreso
+    margin-top: 2rem
+    position: relative
+    height: 2px
+    background: #ddd
+    display: flex
+    justify-content: space-between
+
+    .punto
+      width: 10px
+      height: 10px
+      background: #4dc4c4
+      border-radius: 50%
+      position: relative
+      top: -4px
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #283F65!important
+  color: white
+.acordion__activo
+  background-color: #FEECE6 !important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+    
+
+///////////////TABLAS/////////////////// 
+.tbl
+  table td
+    text-align: start !important
+  th, td, table thead th, .tabla-a th 
+    border: 2px solid #B5B5B5
+  table
+    table-layout: auto
+  
+////////SOMBRA CAJON//////////
+.box-shadow
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+    color: white
+  .fa-chevron-right
+    font-size: 20px
+    color: white
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+      
+.text-end 
+  text-align: left !important
+
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #ACB3BC
+  border: #ACB3BC
+.slyder-a__bullets__item--active
+  background-color: #12263F
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #283F65
