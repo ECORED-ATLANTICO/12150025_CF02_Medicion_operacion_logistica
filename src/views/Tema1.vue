@@ -53,46 +53,46 @@
     
               .bg-color-3.tarjeta.box-shadow.p-3(x="2%" y="100%" numero="+")
                 .row.align-items-center
-                  .col-lg-5
+                  .col-5
                     figure
                       img(src='@/assets/curso/tema1/5.png').mx-auto
-                  .col-lg-7
+                  .col-7
                     h5 Recepción  de mercancías
                     p Tiempos de descarga, verificación de pedidos y registro en sistemas.
     
               .bg-color-3.tarjeta.box-shadow.p-3(x="27%" y="100%" numero="+")
                 .row.align-items-center
-                  .col-lg-5
+                  .col-5
                     figure
                       img(src='@/assets/curso/tema1/6.png').mx-auto
-                  .col-lg-7
+                  .col-7
                     h5 Recepción  de mercancías
                     p Tiempos de descarga, verificación de pedidos y registro en sistemas.
     
               .bg-color-3.tarjeta.box-shadow.p-3(x="52%" y="100%" numero="+")
                 .row.align-items-center
-                  .col-lg-5
+                  .col-5
                     figure
                       img(src='@/assets/curso/tema1/7.png').mx-auto
-                  .col-lg-7
+                  .col-7
                     h5 Recepción  de mercancías
                     p Tiempos de descarga, verificación de pedidos y registro en sistemas.
     
               .bg-color-3.tarjeta.box-shadow.p-3(x="75%" y="100%" numero="+")
                 .row.align-items-center
-                  .col-lg-5
+                  .col-5
                     figure
                       img(src='@/assets/curso/tema1/8.png').mx-auto
-                  .col-lg-7
+                  .col-7
                     h5 Recepción  de mercancías
                     p Tiempos de descarga, verificación de pedidos y registro en sistemas.
     
               .bg-color-3.tarjeta.box-shadow.p-3(x="100%" y="100%" numero="+")
                 .row.align-items-center
-                  .col-lg-5
+                  .col-5
                     figure
                       img(src='@/assets/curso/tema1/9.png').mx-auto
-                  .col-lg-7
+                  .col-7
                     h5 Recepción  de mercancías
                     p Tiempos de descarga, verificación de pedidos y registro en sistemas.
     
@@ -170,38 +170,38 @@
         TabsC.color-primario
           .py-3.py-md-4(titulo="Análisis  de datos operativos.")
             .row.p-4.align-items-center
-              .col-md-8.mb-4.mb-md-0
+              .col-lg-8.mb-4.mb-md-0
                 h4 Análisis  de datos operativos.
                 p Permite la recolección de métricas clave como: tiempos de ciclo (recepción, almacenamiento, picking, despacho, entre otros), exactitud de inventarios (discrepancias entre sistema y físico), niveles de productividad (unidades movidas por hora).
                 p Utiliza herramientas como sistemas de gestión de almacenes (WMS), hojas de cálculo (Excel, Power BI).
             
-              .col-md-4
+              .col-lg-4
                 figure
                   img(src='@/assets/curso/tema1/18.png', alt='Texto que describa la imagen')
           .py-3.py-md-4(titulo="Estudios de tiempos y movimientos.")
             .row.p-4.align-items-center
-              .col-md-8.mb-4.mb-md-0.order-2
+              .col-lg-8.mb-4.mb-md-0.order-2
                 h4 Estudios de tiempos y movimientos.
                 p Permite medir la eficiencia de los procesos mediante la observación directa. Se realiza cronometrando actividades como picking, packing y carga. Un ejemplo es cuando un operario tarda 5 m en preparar un pedido, pero el estándar es 3, se investigan las causas.
             
-              .col-md-4.order-1
+              .col-lg-4.order-1
                 figure
                   img(src='@/assets/curso/tema1/19.png', alt='Texto que describa la imagen')
           .py-3.py-md-4(titulo="Muestreo de trabajo.")
             .row.p-4.align-items-center
-              .col-md-8.mb-4.mb-md-0
+              .col-lg-8.mb-4.mb-md-0
                 h4 Muestreo de trabajo.
                 p Permite la observación aleatoria de actividades para estimar distribución de tiempos. Es menos intrusivo que el cronometraje continuo y útil para procesos no repetitivos.
-              .col-md-4
+              .col-lg-4
                 figure
                   img(src='@/assets/curso/tema1/20.png', alt='Texto que describa la imagen')
           .py-3.py-md-4(titulo="Simulación por computadora.")
             .row.p-4.align-items-center
-              .col-md-8.mb-4.mb-md-0.order-2
+              .col-lg-8.mb-4.mb-md-0.order-2
                 h4 Simulación por computadora.
                 p Permite modelar flujos de trabajo y probar escenarios (aumento de pedidos, cambios en layout, entre otros).
                 p Ayuda a reducir costos de pruebas físicas y permite optimizar rutas de picking y almacenamiento.
-              .col-md-4.order-1
+              .col-lg-4.order-1
                 figure
                   img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
     

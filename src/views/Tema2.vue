@@ -23,7 +23,7 @@
           .col-lg-7
             p(data-aos="fade-left") Las funciones clave de los KPIs permiten traducir los datos operativos en información útil para gestionar el rendimiento logístico, detectar oportunidades de mejora y alinear las acciones con los objetivos estratégicos del almacén.
             .row.align-items-center
-              .col-lg-7
+              .col-lg-7.mb-3.mb-lg-0
                 ul.lista-ul--color.lista-ul--separador
                   li.d-flex 
                     i.fas.fa-circle-check.bg-color-5
@@ -290,7 +290,7 @@
     .bg-color-10.tarjeta.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema2/5.png", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 Actualmente, los indicadores de almacén incorporan nuevas categorías que responden a las exigencias de una gestión más integral. Entre ellos se destacan los de sostenibilidad, como las emisiones de CO₂ y el uso de energías renovables; los predictivos, que anticipan desabastecimientos mediante machine learning; y la analítica de personas, enfocada en medir la satisfacción y lealtad del talento humano. Estas tendencias fortalecen la toma de decisiones y mejoran el desempeño logístico.
@@ -318,7 +318,7 @@
         TabsC.color-primario
           .py-3.py-md-4(titulo="Cualitativas")
             .row.align-items-center.p-4
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 p No se expresan numéricamente, sino mediante categorías o atributos:
                 ul.lista-ul--color.lista-ul--separador.ms-3
                   li.d-flex
@@ -327,12 +327,12 @@
                   li.d-flex
                     i.fas.fa-circle-check.bg-color-5
                     p.mb-0 <b>Ordinal</b>: establece un orden entre categorías, como los niveles de prioridad: alta, media o baja.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/7.png', alt='Texto que describa la imagen')
           .py-3.py-md-4(titulo="Cuantitativas")
             .row.align-items-center.p-4
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 p Se miden en valores numéricos y permiten operaciones matemáticas:
                 ul.lista-ul--color.lista-ul--separador.ms-3
                   li.d-flex
@@ -341,7 +341,7 @@
                   li.d-flex
                     i.fas.fa-circle-check.bg-color-5
                     p.mb-0 <b>Continua</b>: puede tomar cualquier valor dentro de un rango, como el peso de la mercancía o el tiempo de <em>picking</em>.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/8.png', alt='Texto que describa la imagen')
 
@@ -393,47 +393,47 @@
           .col-lg-9
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-1")
               div(titulo="Nominal")
-                .row
+                .row.justify-content-center
                   .col-lg.mb-3.mb-lg-0
                     p.ms-5 Clasifica elementos sin un orden numérico, asignando categorías diferenciadas. 
                     ul.lista-ul--color.ms-5.mb-0
                       li.mb-0.d-flex
                         i.fas.fa-circle-check.bg-color-5
                         p.mb-0 <b>Ejemplo</b>: tipo de empaque (caja, bolsa o palet).
-                  .col-lg-auto
+                  .col-4.col-lg-auto
                     figure
                       img(src="@/assets/curso/tema2/13.png", data-aos="zoom-in")
               div(titulo="Ordinal")
-                .row
+                .row.justify-content-center
                   .col-lg.mb-3.mb-lg-0
                     p.ms-5 Clasifica elementos con un orden lógico, pero sin distancias numéricas precisas entre ellos. 
                     ul.lista-ul--color.ms-5.mb-0
                       li.mb-0.d-flex
                         i.fas.fa-circle-check.bg-color-5
                         p.mb-0 <b>Ejemplo</b>: nivel de satisfacción (1 a 5).
-                  .col-lg-auto
+                  .col-4.col-lg-auto
                     figure
                       img(src="@/assets/curso/tema2/14.png", data-aos="zoom-in")
               div(titulo="Intervalo")
-                .row
+                .row.justify-content-center
                   .col-lg.mb-3.mb-lg-0
                     p.ms-5 Utiliza intervalos iguales entre valores, pero sin un cero absoluto, lo que impide cálculos de proporciones.  
                     ul.lista-ul--color.ms-5.mb-0
                       li.mb-0.d-flex
                         i.fas.fa-circle-check.bg-color-5
                         p.mb-0 <b>Ejemplo</b>: temperatura en el almacén (20 °C frente a 25 °C).
-                  .col-lg-auto
+                  .col-4.col-lg-auto
                     figure
                       img(src="@/assets/curso/tema2/15.png", data-aos="zoom-in")
               div(titulo="Razón")
-                .row
+                .row.justify-content-center
                   .col-lg.mb-3.mb-lg-0
                     p.ms-5 Presenta intervalos iguales y un cero absoluto, permitiendo todas las operaciones matemáticas. 
                     ul.lista-ul--color.ms-5.mb-0
                       li.mb-0.d-flex
                         i.fas.fa-circle-check.bg-color-5
                         p.mb-0 <b>Ejemplo</b>: peso de la mercancía.
-                  .col-lg-auto
+                  .col-4.col-lg-auto
                     figure
                       img(src="@/assets/curso/tema2/16.png", data-aos="zoom-in")
     
@@ -624,27 +624,27 @@
         h3.titulo-con-imagen__texto Por gravedad
     
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.bg-color-1.p-5
+      .col-md.tarjeta.bg-color-1.p-4.p-lg-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-8.col-lg-6
             figure
               img(src='@/assets/curso/tema2/9.png', alt='Texto descriptivo 1')
         h2.text-center Leves
         p.text-center.mb-0 Impacto mínimo, fácil corrección. 
         p.text-center.mb-0 <b>Ejemplo</b>: pequeño retraso en una orden no prioritaria.
     
-      .col-md.tarjeta.bg-color-4.p-5
+      .col-md.tarjeta.bg-color-4.p-4.p-lg-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-8.col-lg-6
             figure
               img(src='@/assets/curso/tema2/10.png', alt='Texto descriptivo 2')
         h2.text-center Moderadas
         p.text-center.mb-0 Afectan KPIs pero no detienen operaciones. 
         p.text-center.mb-0 <b>Ejemplo</b>: 5 % de errores en <em>picking</em> durante un turno.
     
-      .col-md.tarjeta.bg-color-1.p-5
+      .col-md.tarjeta.bg-color-1.p-4.p-lg-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-8.col-lg-6
             figure
               img(src='@/assets/curso/tema2/11.png', alt='Texto descriptivo 3')
         h2.text-center Criticas
@@ -699,7 +699,7 @@
         .tarjeta.bg-color-1.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/5.png", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Estos procesos permiten transformar operaciones empíricas en sistemas confiables y repetibles, reduciendo variabilidad y errores. La validación es el proceso sistemático de verificar que los sistemas, equipos y procedimientos cumplen con los requisitos establecidos y producen resultados consistentes. Existen varios tipos de validación, que se mencionan a continuación:

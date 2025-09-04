@@ -19,7 +19,7 @@
         
             .bg-color-1.tarjeta.p-4(data-aos="fade-left")
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/intro/2.png", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 El análisis de resultados y la generación de informes estructurados son fundamentales para transformar datos en acciones concretas. Mediante metodologías y técnicas de análisis, se interpreta la información recopilada, facilitando la toma de decisiones basada en evidencia. La mejora continua se consolida como un pilar estratégico, promoviendo acciones que incrementan la eficiencia y reducen costos. 

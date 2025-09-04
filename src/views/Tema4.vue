@@ -66,53 +66,53 @@
           .col-lg-8
             p.mb-5.text-bold.bg-color-14.p-3.text-center.tarjeta.text-white A continuación, se presenta la estructura recomendada para la presentación de resultados:
             PasosA.color-primario(tipo="n")
-              .row
+              .row.justify-content-center
                 .col-md-10.mb-4.mb-md-0.order-2
                   h3 Portada y contexto
                   p Presenta el título del informe, fecha, responsables y objetivos principales, como la meta de reducir tiempos de <em>picking</em>.
-                .col-md-2.order-1.mb-3.mb-lg-0
+                .col-6.col-md-2.order-1.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/3.png', alt='Texto que describa la imagen')
-              .row
+              .row.justify-content-center
                 .col-md-10.mb-4.mb-md-0
                   h3 Resumen ejecutivo
                   p Resume hallazgos clave, impacto financiero u operativo y recomendaciones prioritarias en una sola página.
-                .col-md-2
+                .col-6.col-md-2
                   figure
                     img(src='@/assets/curso/tema4/4.png', alt='Texto que describa la imagen')
-              .row
+              .row.justify-content-center
                 .col-md-10.mb-4.mb-md-0.order-2
                   h3 Metodología utilizada
                   p Describe el enfoque, fuentes de datos, técnicas aplicadas y el período de evaluación.
-                .col-md-2.order-1.mb-3.mb-lg-0
+                .col-6.col-md-2.order-1.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/5.png', alt='Texto que describa la imagen')
-              .row
+              .row.justify-content-center
                 .col-md-10.mb-4.mb-md-0
                   h3 Resultados y hallazgos
                   p Expone indicadores, análisis por área y visualizaciones como diagramas de Pareto, mapas de calor o series de tiempo.
-                .col-md-2
+                .col-6.col-md-2
                   figure
                     img(src='@/assets/curso/tema4/6.png', alt='Texto que describa la imagen')
-              .row
+              .row.justify-content-center
                 .col-md-10.mb-4.mb-md-0.order-2
                   h3 Conclusiones
                   p Identifica problemas críticos y su impacto en la operación.
-                .col-md-2.order-1.mb-3.mb-lg-0
+                .col-6.col-md-2.order-1.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/7.png', alt='Texto que describa la imagen')
-              .row
+              .row.justify-content-center
                 .col-md-10.mb-4.mb-md-0
                   h3 Recomendaciones
                   p Plantea acciones a corto, mediano y largo plazo para mejorar el desempeño.
-                .col-md-2
+                .col-6.col-md-2
                   figure
                     img(src='@/assets/curso/tema4/8.png', alt='Texto que describa la imagen')
-              .row
+              .row.justify-content-center
                 .col-md-10.mb-4.mb-md-0.order-2
                   h3 Anexos
                   p Incluye datos crudos, evidencias fotográficas y glosario de términos.
-                .col-md-2.order-1.mb-3.mb-lg-0
+                .col-6.col-md-2.order-1.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/9.png', alt='Texto que describa la imagen')
       
@@ -165,7 +165,7 @@
           .col-lg-3.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema4/13.png")
-          .col-lg-5
+          .col-lg-5.mb-3.mb-lg-0
             div.bg-color-sintesis.p-3.tarjeta.h-100
               figure.mb-3
                 img(src="@/assets/curso/tema4/14.png", style="max-width: 190px")
@@ -179,7 +179,7 @@
                 li.d-flex 
                   i.fas.fa-circle-check.bg-color-5
                   p.mb-0 <b>Mapas de calor</b>: identificar zonas críticas en el almacén.
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             div.bg-color-sintesis.p-3.tarjeta.h-100
               figure.mb-3
                 img(src="@/assets/curso/tema4/15.png", style="max-width: 230px")

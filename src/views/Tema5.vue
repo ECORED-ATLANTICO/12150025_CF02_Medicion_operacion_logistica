@@ -9,7 +9,7 @@
     
     img(data-aos="fade-up")(src="@/assets/curso/tema5/1.png", alt="Imagen decorativa")
 
-    .row.justify-content-center.align-items-center.z-2.mb-5
+    .row.justify-content-center.align-items-center.z-2
       .col-lg-10
         p.banner-text En un entorno logístico competitivo, los almacenes deben adaptarse a cambios en la demanda, nuevas tecnologías y estándares de servicio. Implementar un sistema de mejora continua permite mantener altos niveles de desempeño y responder rápidamente a los desafíos operativos.
     

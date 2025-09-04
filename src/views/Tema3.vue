@@ -16,8 +16,8 @@
           .col-lg-8
             p(data-aos="fade-left") El análisis de resultados en la gestión de almacenes es un proceso estructurado que permite evaluar el desempeño de las operaciones, identificar problemas y tomar decisiones basadas en datos para mejorar la eficiencia, reducir costos y optimizar procesos.
             p El análisis de resultados en almacenes requiere:
-            .row.mb-5.bg-color-13.pst-2
-              .col-lg-3.mb-3.mb-lg-0
+            .row.mb-5.bg-color-13.pst-2.justify-content-center
+              .col-6.col-lg-3.mb-3.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
               .col-lg-9.p-3
