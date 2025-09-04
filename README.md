@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+[https://ecored-atlantico.github.io/12150025_CF02_Medicion_operacion_logistica/](https://ecored-atlantico.github.io/12150025_CF02_Medicion_operacion_logistica/)
 
 #
 
