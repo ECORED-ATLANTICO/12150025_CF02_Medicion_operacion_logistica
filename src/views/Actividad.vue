@@ -97,7 +97,7 @@ export default {
         {
           id: 4,
           texto:
-            'El método Six Sigma se enfoca en reducir variabilidad y errores mediante 5 fases: definir, medir, analizar, mejorar y controlar.',
+            'El método <em>six sigma</em> se enfoca en reducir variabilidad y errores mediante 5 fases: definir, medir, analizar, mejorar y controlar.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [

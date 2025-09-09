@@ -194,21 +194,21 @@ export default {
     {
       tema: 'Evaluación de operaciones en almacén.',
       referencia:
-        'DEHA Consultores. (2021). Evaluación de almacenes. [Video]. YouTube.',
+        'DEHA Consultores. (2021). <em>Evaluación de almacenes.</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hx-NfkPcd3c&t=40s',
     },
     {
       tema: 'Indicadores de desempeño.',
       referencia:
-        'Logística para el mundo SENA Maicao. (2023). Indicadores de gestión de almacenamiento. [Video]. YouTube.',
+        'Logística para el mundo SENA Maicao. (2023). <em>Indicadores de gestión de almacenamiento.</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=8tJVSBf3zdo',
     },
     {
       tema: 'Mejora continua en almacén.',
       referencia:
-        'SGS Productivity. (2024). Lean Logistics Consum: La mejora continua aplicada en la logística [Video]. YouTube.',
+        'SGS Productivity. (2024). <em>Lean Logistics Consum: La mejora continua aplicada en la logística</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=B7uTJeOVHkE',
     },
@@ -300,36 +300,31 @@ export default {
   referencias: [
     {
       referencia:
-        'Algevasa Logistics. (2025). La planificación en el almacén logístico. ',
+        'Algevasa Logistics. (2025). <em>La planificación en el almacén logístico.</em> ',
       link:
         'https://www.algevasa.com/la-planificacion-en-el-almacen-logistico/',
     },
     {
       referencia:
-        'Aula Centro de Formación. (2022). Gestión de almacén y logística. ',
+        'Aula Centro de Formación. (2022). <em>Gestión de almacén y logística</em>. ',
       link:
         'https://dl.dropboxusercontent.com/scl/fi/ucro9rrtkrv682y7s1qt6/Curso-Gesti-n-de-Almanc-n-y-Log-stica-Aula-Centro-Formaci-n.pdf?rlkey=azxypu2r27s5m21odlj9ymwys&dl=0',
     },
     {
       referencia:
-        'Mecalux. (2022). 9 indicadores de bodega para medir la gestión logística. ',
+        'Mecalux. (2022). <em>9 indicadores de bodega para medir la gestión logística</em>. ',
       link: 'https://www.mecalux.com.co/blog/indicadores-bodega',
     },
     {
       referencia:
-        'Mecalux. (2021). La mejora continua y su aplicación en logística. ',
+        'Mecalux. (2021). <em>La mejora continua y su aplicación en logística</em>. ',
       link: 'https://www.mecalux.com.co/blog/mejora-continua',
     },
     {
       referencia:
-        'Polypal. (2021). Controla estos indicadores y mejora la gestión logística de tu almacén. ',
+        'Polypal. (2021). <em>Controla estos indicadores y mejora la gestión logística de tu almacén</em>. ',
       link:
         'https://www.polypal.com/blog/controla-estos-indicadores-y-mejora-la-gestion-logistica-de-tu-almacen/',
-    },
-    {
-      referencia:
-        'Servicio Nacional de Aprendizaje (SENA). (2021). Coordinación de procesos logísticos [Curso virtual]. Plataforma Zajuna. ',
-      link: 'https://zajuna.sena.edu.co/zajuna/course/view.php?id=32450',
     },
   ],
   creditos: [

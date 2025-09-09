@@ -55,7 +55,8 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/4.png')})`}"
           )(data-aos="zoom-in")
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los indicadores de desempeño son herramientas cuantitativas esenciales para medir, analizar y mejorar el desempeño de las operaciones logísticas en almacenes.  A continuación, se mencionan los tipos de indicadores utilizados en la evaluación de operaciones en almacén:
+            p Los indicadores de desempeño son herramientas cuantitativas esenciales para medir, analizar y mejorar el desempeño de las operaciones logísticas en almacenes. <br><br> 
+            p A continuación, se mencionan los tipos de indicadores utilizados en la evaluación de operaciones en almacén:
     
   
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -82,24 +83,24 @@
                       p.mb-0 Fórmula: total minutos de descarga / número de vehículos recibidos.
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Estándar industrial: 30-45 min para carga paletizada.
+                      p.mb-0 Estándar industrial: 30 - 45 min para carga paletizada.
               tr
                 td Tiempo de inventariado de mercancías recibidas.
                 td 
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Fórmula: fecha en que la mercancía se coloca en stock - fecha en que se recibe la mercancía.
+                      p.mb-0 Fórmula: fecha en que la mercancía se coloca en <em>stock</em> - fecha en que se recibe la mercancía.
               tr.bg-color-white
                 td Productividad en recepción.
                 td 
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Fórmula: Unidades recibidas / h por operario
+                      p.mb-0 Fórmula: unidades recibidas / h por operario
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Benchmark: 150-200 cajas / h en operación manual. 
+                      p.mb-0 <em>Benchmark</em>: 150 - 200 cajas / h en operación manual. 
               tr
                 td(rowspan="4") De almacenamiento.
                 td Tasa de utilización de espacio.
@@ -110,7 +111,7 @@
                       p.mb-0 Fórmula: volumen ocupado / capacidad total x 100.
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Óptimo: 80-85 % (permite flujos de trabajo).
+                      p.mb-0 Óptimo: 80 - 85 % (permite flujos de trabajo).
               tr.bg-color-white
                 td Costo de almacenamiento por unidad.
                 td 
@@ -130,17 +131,17 @@
                       p.mb-0 Tiempo promedio para ubicar mercancía.
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Tecnología de mejora: sistemas de putaway inteligente.
+                      p.mb-0 Tecnología de mejora: sistemas de <em>putaway</em> inteligente.
               tr.bg-color-white
-                td Días on hand de mercancía.
+                td Días <em>on hand</em> de mercancía.
                 td 
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
                       p.mb-0 Tiempo promedio que permanece una referencia en el almacén.
               tr
-                td(rowspan="3").bg-color-white De picking.
-                td Tasa de errores en picking.
+                td(rowspan="3").bg-color-white De <em>picking</em>.
+                td Tasa de errores en <em>picking</em>.
                 td 
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex 
@@ -148,14 +149,14 @@
                       p.mb-0 Fórmula: pedidos con errores / total pedidos x 100
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Nivel aceptable: <0.5 % en retail.
+                      p.mb-0 Nivel aceptable: < 0.5 % en <em>retail</em>.
               tr.bg-color-white
-                td Distancia recorrida en picking.
+                td Distancia recorrida en <em>picking</em>.
                 td 
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Medición con sistemas WMS con routing, wearables.
+                      p.mb-0 Medición con sistemas WMS con <em>routing, wearables</em>.
               tr
                 td Número de líneas de pedido recogidas y preparadas en una hora.
                 td 
@@ -165,7 +166,7 @@
                       p.mb-0 Representa la cantidad de líneas de pedido (o ítems individuales) que un operario o equipo logra recoger y preparar en una hora de trabajo.
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Variaciones según método: picking discreto: 60-80 LPH, picking por lote: 100-120 LPH, picking por zona: 80-100 LPH.
+                      p.mb-0 Variaciones según método: <em>picking</em> discreto: 60 - 80 LPH, <em>picking</em> por lote: 100 - 120 LPH, <em>picking</em> por zona: 80 - 100 LPH.
               tr
                 td(rowspan="2") De despacho.
                 td.bg-color-white Envíos a tiempo
@@ -176,7 +177,7 @@
                       p.mb-0 Fórmula: pedidos despachados a tiempo / total pedidos.
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Estándar clase mundial: >98 %.
+                      p.mb-0 Estándar clase mundial: > 98 %.
               tr
                 td Utilización del cubicaje
                 td 
@@ -186,7 +187,7 @@
                       p.mb-0 Fórmula: volumen utilizado / capacidad del vehículo x 100.
                     li.d-flex 
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Meta óptima: >90 %.
+                      p.mb-0 Meta óptima: > 90 %.
         
 
       .div(titulo="Por naturaleza del indicador")
@@ -230,7 +231,7 @@
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Fórmula: registros correctos / conteos totales × 100.
+                      p.mb-0 Fórmula: registros correctos / conteos totales x 100.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
                       p.mb-0 Compara registros de inventario con el inventario físico real.
@@ -240,7 +241,7 @@
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Fórmula: elementos que cumplen especificaciones / total evaluados × 100.
+                      p.mb-0 Fórmula: elementos que cumplen especificaciones / total evaluados x 100.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
                       p.mb-0 % de productos en condiciones óptimas (temperatura y humedad).
@@ -251,17 +252,17 @@
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Fórmula: horas hombre invertidas / unidades movidas × 100.
+                      p.mb-0 Fórmula: horas hombre invertidas / unidades movidas x 100.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Mide la eficiencia en actividades como picking, embalaje, carga y descarga.
+                      p.mb-0 Mide la eficiencia en actividades como <em>picking</em>, embalaje, carga y descarga.
               tr.bg-color-9
                 td Rendimiento de equipos
                 td
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Fórmula: horas productivas / horas disponibles × 100.
+                      p.mb-0 Fórmula: horas productivas / horas disponibles x 100.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
                       p.mb-0 Evalúa la eficiencia de maquinaria en almacenamiento, transporte interno, carga y descarga.
@@ -272,7 +273,7 @@
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Fórmula: N° incidentes × 200,000 / h trabajadas.
+                      p.mb-0 Fórmula: N° incidentes x 200,000 / h trabajadas.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
                       p.mb-0 Refleja la frecuencia de lesiones y enfermedades laborales registrables.
@@ -293,7 +294,7 @@
           .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema2/5.png", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 Actualmente, los indicadores de almacén incorporan nuevas categorías que responden a las exigencias de una gestión más integral. Entre ellos se destacan los de sostenibilidad, como las emisiones de CO₂ y el uso de energías renovables; los predictivos, que anticipan desabastecimientos mediante machine learning; y la analítica de personas, enfocada en medir la satisfacción y lealtad del talento humano. Estas tendencias fortalecen la toma de decisiones y mejoran el desempeño logístico.
+            p.mb-0 Actualmente, los indicadores de almacén incorporan nuevas categorías que responden a las exigencias de una gestión más integral. Entre ellos se destacan los de sostenibilidad, como las emisiones de CO₂ y el uso de energías renovables; los predictivos, que anticipan desabastecimientos mediante <em>machine learning</em>; y la analítica de personas, enfocada en medir la satisfacción y lealtad del talento humano. Estas tendencias fortalecen la toma de decisiones y mejoran el desempeño logístico.
     
     separador
     
@@ -361,7 +362,7 @@
                 figure
                   img(src='@/assets/curso/tema2/9.png', alt='Texto descriptivo 1')
             h2.text-center Independiente
-            p.text-center Factor que se controla o varía para observar su efecto en la gestión del almacén, por ejemplo, el método de picking, layout o nivel de automatización.
+            p.text-center Factor que se controla o varía para observar su efecto en la gestión del almacén, por ejemplo, el método de <em>picking</em>, <em>layout</em> o nivel de automatización.
         
           .col-md.tarjeta.bg-color-4.p-5
             .row.justify-content-center.mb-4
@@ -399,7 +400,7 @@
                     ul.lista-ul--color.ms-5.mb-0
                       li.mb-0.d-flex
                         i.fas.fa-circle-check.bg-color-5
-                        p.mb-0 <b>Ejemplo</b>: tipo de empaque (caja, bolsa o palet).
+                        p.mb-0 <b>Ejemplo</b>: tipo de empaque (caja, bolsa o <em>palet</em>).
                   .col-4.col-lg-auto
                     figure
                       img(src="@/assets/curso/tema2/13.png", data-aos="zoom-in")
@@ -528,12 +529,12 @@
               .tarjeta.color-acento-botones--borde.p-4.h-100(titulo="Porcentaje")
                 h4 Porcentaje
                 p Evalúa la proporción de éxito o error en un proceso, expresada en "%", facilitando comparaciones. 
-                p <b>Ejemplo</b>: precisión en picking del 95 % significa que 5 de cada 100 pedidos tienen errores.
+                p <b>Ejemplo</b>: precisión en <em>picking</em> del 95 % significa que 5 de cada 100 pedidos tienen errores.
 
-              .tarjeta.color-acento-botones--borde.p-4.h-100(titulo="Ratios")
-                h4 Ratios
+              .tarjeta.color-acento-botones--borde.p-4.h-100(titulo="<em>Ratios</em>")
+                h4 <em>Ratios</em>
                 p Relaciona dos variables clave para medir rendimiento o liquidez, expresados como “veces” o “proporciones”. 
-                p <b>Ejemplo</b>: rotación de inventario de 5 indica que el stock se renueva 5 veces al año.
+                p <b>Ejemplo</b>: rotación de inventario de 5 indica que el <em>stock</em> se renueva 5 veces al año.
               .tarjeta.color-acento-botones--borde.p-4.h-100(titulo="Promedios")
                 h4 Promedios
                 p Analiza tendencias y estabilidad suavizando fluctuaciones, útil en gestión de inventarios y recursos. 
@@ -569,7 +570,7 @@
                 img(src='@/assets/curso/tema2/27.svg' alt='AvatarTop' , style="max-width: 80px").mx-auto.mb-3
                 h4.text-center De inventario
                 p.text-center.mb-0 Diferencias entre registros físicos y de sistema.
-                p.text-center.mb-0 <b>Ejemplo</b>: roturas de stock o mermas no justificadas.
+                p.text-center.mb-0 <b>Ejemplo</b>: roturas de <em>stock</em> o mermas no justificadas.
               .bg-color-white.p-4.h-100.box-shadow
                 img(src='@/assets/curso/tema2/28.svg' alt='AvatarTop' , style="max-width: 80px").mx-auto.mb-3
                 h4.text-center De calidad
@@ -608,11 +609,11 @@
               div(titulo="Tecnológicas")
                 div.ms-5
                   p.mb-0 Fallos en sistemas o equipos. 
-                  p.mb-0 <b>Ejemplos</b>: fallas en automatización (robots de picking que no funcionan), códigos dañados (etiquetas RFID ilegibles).
+                  p.mb-0 <b>Ejemplos</b>: fallas en automatización (robots de <em>picking</em> que no funcionan), códigos dañados (etiquetas RFID ilegibles).
               div(titulo="De proceso")
                 div.ms-5
                   p.mb-0 Problemas en flujos de trabajo. 
-                  p.mb-0 <b>Ejemplos</b>: cuellos de botella (zonas de picking congestionadas), falta de estandarización (métodos distintos para la misma tarea).
+                  p.mb-0 <b>Ejemplos</b>: cuellos de botella (zonas de <em>picking</em> congestionadas), falta de estandarización (métodos distintos para la misma tarea).
               div(titulo="Externas")
                 div.ms-5
                   p.mb-0 Factores fuera del control del almacén. 
@@ -713,7 +714,7 @@
           .crd_hover_txt--body.bg-color-12
             h4.mb-3.text-center De  procesos
             p.mb-0 Verificación de que un proceso mantiene control bajo condiciones normales. 
-            p.mb-0 <b>Ejemplo</b>: validación del proceso de picking automatizado.
+            p.mb-0 <b>Ejemplo</b>: validación del proceso de <em>picking</em> automatizado.
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img

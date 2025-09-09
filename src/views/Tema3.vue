@@ -79,7 +79,7 @@
     separador
     
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.3 Técnicas de análisis
+      h2 3.2 Técnicas de análisis
     
     img(data-aos="fade-up")(src="@/assets/curso/tema3/7.png", alt="Imagen decorativa")
 
@@ -95,9 +95,9 @@
         LineaTiempoD.color-primario.large(data-aos="fade-left")
           p(numero="1" titulo="Análisis  ABC") Clasifica productos por impacto: A (alto), B (medio), C (bajo). Sirve para asignar espacios estratégicos y priorizar control.
           p(numero="2" titulo="Análisis de tendencias") Detecta patrones históricos para predecir demanda usando media móvil, análisis estacional o regresión. Aplica en planeación de inventarios y ajustes de personal.
-          p(numero="3" titulo="Análisis de causa raíz") Identifica el origen de problemas usando Diagrama de Ishikawa o los 5 porqués. Ejemplo: errores de picking por falta de capacitación en WMS.
+          p(numero="3" titulo="Análisis de causa raíz") Identifica el origen de problemas usando Diagrama de Ishikawa o los 5 porqués. Ejemplo: errores de <em>picking</em> por falta de capacitación en WMS.
           p(numero="4" titulo="Análisis de Pareto") Enfoca en el 20 % de causas que generan el 80 % de problemas. Útil para priorizar acciones en productos o procesos clave.
-          p(numero="5" titulo="Simulación y modelado de procesos") Prueba escenarios sin afectar operaciones reales, usando software o análisis “qué pasaría si”. Optimiza rutas de picking y uso de espacio.
+          p(numero="5" titulo="Simulación y modelado de procesos") Prueba escenarios sin afectar operaciones reales, usando <em>software</em> o análisis “qué pasaría si”. Optimiza rutas de <em>picking</em> y uso de espacio.
     
               
 

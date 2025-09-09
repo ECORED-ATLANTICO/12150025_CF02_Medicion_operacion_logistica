@@ -27,7 +27,7 @@
             SlyderF(columnas="col-12 col-lg-6")
               .bg-color-white.p-4.h-100.box-shadow
                 img(src='@/assets/curso/tema5/3.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                p.text-center.mb-0 Reducir tiempos de operación (picking, packing, despacho, entre otros).
+                p.text-center.mb-0 Reducir tiempos de operación (<em>picking</em>, <em>packing</em>, despacho, entre otros).
               .bg-color-white.p-4.h-100.box-shadow
                 img(src='@/assets/curso/tema5/4.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 p.text-center.mb-0 Minimizar errores (inventarios inexactos y pedidos equivocados).
@@ -165,7 +165,7 @@
                   i.fas.fa-circle-check.bg-color-5
                   p.mb-0 Sesiones Kaizen: talleres enfocados en resolver problemas puntuales con equipos multidisciplinarios.
           tr.bg-color-9
-            td Tableros visuales (Kanban) y Dashboards.
+            td Tableros visuales (Kanban) y <em>Dashboards</em>.
             td
               ul.lista-ul--color.lista-ul--separador
                 li.d-flex

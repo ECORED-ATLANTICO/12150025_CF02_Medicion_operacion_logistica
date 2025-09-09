@@ -66,8 +66,8 @@
                     figure
                       img(src='@/assets/curso/tema1/6.png').mx-auto
                   .col-7
-                    h5 Recepción  de mercancías
-                    p Tiempos de descarga, verificación de pedidos y registro en sistemas.
+                    h5 Almacenamiento
+                    p Uso eficiente del espacio, rotación de inventario y condiciones de conservación.
     
               .bg-color-3.tarjeta.box-shadow.p-3(x="52%" y="100%" numero="+")
                 .row.align-items-center
@@ -75,8 +75,8 @@
                     figure
                       img(src='@/assets/curso/tema1/7.png').mx-auto
                   .col-7
-                    h5 Recepción  de mercancías
-                    p Tiempos de descarga, verificación de pedidos y registro en sistemas.
+                    h5 Preparación de pedidos (<em>picking y packing</em>)
+                    p Exactitud, velocidad y ergonomía en el proceso.
     
               .bg-color-3.tarjeta.box-shadow.p-3(x="75%" y="100%" numero="+")
                 .row.align-items-center
@@ -84,8 +84,8 @@
                     figure
                       img(src='@/assets/curso/tema1/8.png').mx-auto
                   .col-7
-                    h5 Recepción  de mercancías
-                    p Tiempos de descarga, verificación de pedidos y registro en sistemas.
+                    h5 Despacho y distribución
+                    p Cumplimiento de plazos de entrega y coordinación con transporte.
     
               .bg-color-3.tarjeta.box-shadow.p-3(x="100%" y="100%" numero="+")
                 .row.align-items-center
@@ -93,8 +93,8 @@
                     figure
                       img(src='@/assets/curso/tema1/9.png').mx-auto
                   .col-7
-                    h5 Recepción  de mercancías
-                    p Tiempos de descarga, verificación de pedidos y registro en sistemas.
+                    h5 Gestión de inventario
+                    p Niveles de <em>stock</em>, obsolescencia y precisión en registros.
     
     separador
     
@@ -172,7 +172,7 @@
             .row.p-4.align-items-center
               .col-lg-8.mb-4.mb-md-0
                 h4 Análisis  de datos operativos.
-                p Permite la recolección de métricas clave como: tiempos de ciclo (recepción, almacenamiento, picking, despacho, entre otros), exactitud de inventarios (discrepancias entre sistema y físico), niveles de productividad (unidades movidas por hora).
+                p Permite la recolección de métricas clave como: tiempos de ciclo (recepción, almacenamiento, <em>picking</em>, despacho, entre otros), exactitud de inventarios (discrepancias entre sistema y físico), niveles de productividad (unidades movidas por hora).
                 p Utiliza herramientas como sistemas de gestión de almacenes (WMS), hojas de cálculo (Excel, Power BI).
             
               .col-lg-4
@@ -182,7 +182,7 @@
             .row.p-4.align-items-center
               .col-lg-8.mb-4.mb-md-0.order-2
                 h4 Estudios de tiempos y movimientos.
-                p Permite medir la eficiencia de los procesos mediante la observación directa. Se realiza cronometrando actividades como picking, packing y carga. Un ejemplo es cuando un operario tarda 5 m en preparar un pedido, pero el estándar es 3, se investigan las causas.
+                p Permite medir la eficiencia de los procesos mediante la observación directa. Se realiza cronometrando actividades como <em>picking</em>, <em>packing</em> y carga. Un ejemplo es cuando un operario tarda 5 min en preparar un pedido, pero el estándar es 3 min, se investigan las causas.
             
               .col-lg-4.order-1
                 figure
@@ -199,8 +199,8 @@
             .row.p-4.align-items-center
               .col-lg-8.mb-4.mb-md-0.order-2
                 h4 Simulación por computadora.
-                p Permite modelar flujos de trabajo y probar escenarios (aumento de pedidos, cambios en layout, entre otros).
-                p Ayuda a reducir costos de pruebas físicas y permite optimizar rutas de picking y almacenamiento.
+                p Permite modelar flujos de trabajo y probar escenarios (aumento de pedidos, cambios en <em>layout</em>, entre otros).
+                p Ayuda a reducir costos de pruebas físicas y permite optimizar rutas de <em>picking</em> y almacenamiento.
               .col-lg-4.order-1
                 figure
                   img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
@@ -246,7 +246,7 @@
         .titulo-con-imagen(data-aos="fade-right")
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
-            h3.titulo-con-imagen__texto Benchmarking  
+            h3.titulo-con-imagen__texto <em>Benchmarking</em>  
     
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
@@ -360,7 +360,7 @@
               figure
                 img(src="@/assets/curso/tema1/29.png", data-aos="zoom-in")
               div.p-3
-                h4 <em>Six Sigma</em>
+                h4 <em><em>six sigma</em></em>
                 p Metodología para reducir variabilidad y errores:
                 ul.ms-3.lista-ul--color.lista-ul--separador
                   li.d-flex 
@@ -380,7 +380,7 @@
                     p.mb-0 Controlar resultados.
               
     .cajon.color-acento-contenido.p-4.mb-5
-      p La elección del método de evaluación en un almacén debe responder a los objetivos específicos que se buscan alcanzar. Si el enfoque es mejorar la eficiencia operativa, se recomiendan métodos cuantitativos; si se trata de analizar el clima laboral, son más apropiados los métodos cualitativos; y si el propósito es fortalecer la mejora continua, herramientas como el benchmarking y six sigma resultan ideales. En cualquier caso, una evaluación constante es fundamental para garantizar un almacén competitivo y eficiente.
+      p La elección del método de evaluación en un almacén debe responder a los objetivos específicos que se buscan alcanzar. Si el enfoque es mejorar la eficiencia operativa, se recomiendan métodos cuantitativos; si se trata de analizar el clima laboral, son más apropiados los métodos cualitativos; y si el propósito es fortalecer la mejora continua, herramientas como el <em>benchmarking</em> y <em>six sigma</em> resultan ideales. En cualquier caso, una evaluación constante es fundamental para garantizar un almacén competitivo y eficiente.
     
       
               

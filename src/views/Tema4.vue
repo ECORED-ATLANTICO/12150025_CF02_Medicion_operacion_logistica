@@ -137,13 +137,13 @@
             ul.ms-3.lista-ul--color.lista-ul--separador
               li.d-flex 
                 i.fas.fa-circle-check.bg-color-5
-                p.mb-0 <b>Claridad y precisión</b>: Se debe emplear un lenguaje comprensible para todas las partes interesadas, definiendo claramente las siglas y explicando los tecnicismos para asegurar una comunicación clara y efectiva.
+                p.mb-0 <b>Claridad y precisión</b>: se debe emplear un lenguaje comprensible para todas las partes interesadas, definiendo claramente las siglas y explicando los tecnicismos para asegurar una comunicación clara y efectiva.
               li.d-flex 
                 i.fas.fa-circle-check.bg-color-5
-                p.mb-0 <b>Estructura lógica</b>: La información debe organizarse en orden descendente, comenzando por lo más importante y continuando con lo secundario. Se recomienda redactar párrafos cortos de 3 a 5 líneas, cada uno con una idea central, y emplear conectores como “Por lo tanto”, “En consecuencia” o “Sin embargo” para garantizar la coherencia del texto.
+                p.mb-0 <b>Estructura lógica</b>: la información debe organizarse en orden descendente, comenzando por lo más importante y continuando con lo secundario. Se recomienda redactar párrafos cortos de 3 a 5 líneas, cada uno con una idea central, y emplear conectores como “Por lo tanto”, “En consecuencia” o “Sin embargo” para garantizar la coherencia del texto.
               li.d-flex 
                 i.fas.fa-circle-check.bg-color-5
-                p.mb-0 <b>Enfoque basado en datos</b>: Sustentar las afirmaciones con cifras, por ejemplo: el 25 % de los errores en <em>picking</em> se deben a etiquetado incorrecto, frente al 15 % registrado en 2023. Asimismo, se deben realizar comparaciones con <em>benchmarks</em>, como en el caso del tiempo de recepción, que con 45 minutos supera el estándar de la industria establecido en 30 minutos.
+                p.mb-0 <b>Enfoque basado en datos</b>: sustentar las afirmaciones con cifras, por ejemplo: el 25 % de los errores en <em>picking</em> se deben a etiquetado incorrecto, frente al 15 % registrado en 2023. Asimismo, se deben realizar comparaciones con <em>benchmarks</em>, como en el caso del tiempo de recepción, que con 45 minutos supera el estándar de la industria establecido en 30 minutos.
       .div(titulo="Técnicas de redacción por sección")
         .row.mb-5.justify-content-center.align-items-center
           .col-lg-3.mb-3.mb-lg-0
@@ -153,13 +153,13 @@
             ul.ms-3.lista-ul--color.lista-ul--separador
               li.d-flex 
                 i.fas.fa-circle-check.bg-color-5
-                p.mb-0 <b>Resumen ejecutivo</b>: Debe ser breve, máximo una página, e incluir el problema o contexto, el hallazgo principal y la recomendación prioritaria para generar mayor impacto en la mejora.
+                p.mb-0 <b>Resumen ejecutivo</b>: debe ser breve, máximo una página, e incluir el problema o contexto, el hallazgo principal y la recomendación prioritaria para generar mayor impacto en la mejora.
               li.d-flex 
                 i.fas.fa-circle-check.bg-color-5
-                p.mb-0 <b>Resultados detallados</b>: Organizar por procesos clave (recepción, almacenamiento, picking y despacho) usando tablas comparativas y gráficos para mostrar diferencias, tendencias y oportunidades de mejora.
+                p.mb-0 <b>Resultados detallados</b>: organizar por procesos clave (recepción, almacenamiento, <em>picking</em> y despacho) usando tablas comparativas y gráficos para mostrar diferencias, tendencias y oportunidades de mejora.
               li.d-flex 
                 i.fas.fa-circle-check.bg-color-5
-                p.mb-0 <b>Recomendaciones</b>: Formular las recomendaciones con el enfoque SMART: específicas, medibles, alcanzables, relevantes y con un tiempo definido para su ejecución y seguimiento.
+                p.mb-0 <b>Recomendaciones</b>: formular las recomendaciones con el enfoque SMART: específicas, medibles, alcanzables, relevantes y con un tiempo definido para su ejecución y seguimiento.
       .div(titulo="Diseño visual y herramientas")
         .row.mb-5.justify-content-center
           .col-lg-3.mb-3.mb-lg-0
@@ -202,13 +202,13 @@
             ul.ms-3.lista-ul--color.lista-ul--separador
               li.d-flex 
                 i.fas.fa-circle-check.bg-color-5
-                p.mb-0 <b>Para alta dirección</b>: Formato ejecutivo (máximo 10 diapositivas) destacando impacto financiero, ahorros, ROI y riesgos de no actuar para apoyar decisiones estratégicas.
+                p.mb-0 <b>Para alta dirección</b>: formato ejecutivo (máximo 10 diapositivas) destacando impacto financiero, ahorros, ROI y riesgos de no actuar para apoyar decisiones estratégicas.
               li.d-flex 
                 i.fas.fa-circle-check.bg-color-5
-                p.mb-0 <b>Para supervisores</b>: Informe técnico con taller práctico, enfocado en soluciones operativas paso a paso y capacitación para adoptar nuevos procesos.
+                p.mb-0 <b>Para supervisores</b>: informe técnico con taller práctico, enfocado en soluciones operativas paso a paso y capacitación para adoptar nuevos procesos.
               li.d-flex 
                 i.fas.fa-circle-check.bg-color-5
-                p.mb-0 <b>Para equipo operativo</b>: Infografías en zonas comunes con métricas simples y visuales, como “5 pasos para reducir errores en <em>picking</em>”, para reforzar buenas prácticas.
+                p.mb-0 <b>Para equipo operativo</b>: infografías en zonas comunes con métricas simples y visuales, como “5 pasos para reducir errores en <em>picking</em>”, para reforzar buenas prácticas.
 
 </template>
 
