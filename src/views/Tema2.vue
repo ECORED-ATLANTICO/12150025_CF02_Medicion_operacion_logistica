@@ -12,7 +12,7 @@
 
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10
-        p.banner-text Los indicadores de desempeño (KPIs) son herramientas cuantitativas y cualitativas que permiten medir, evaluar y mejorar la eficiencia de los procesos logísticos en un almacén. Su correcta selección y análisis garantiza una gestión basada en datos para la toma de decisiones estratégicas.
+        p.banner-text Los indicadores de desempeño (<em>KPI´s</em>) son herramientas cuantitativas y cualitativas que permiten medir, evaluar y mejorar la eficiencia de los procesos logísticos en un almacén. Su correcta selección y análisis garantiza una gestión basada en datos para la toma de decisiones estratégicas.
     
     .bg-full-width.bg-fondo-1.mb-5
       .p-4.p-md-5

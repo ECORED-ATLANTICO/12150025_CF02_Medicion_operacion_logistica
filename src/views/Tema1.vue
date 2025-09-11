@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
       )(data-aos="zoom-in")
       .bloque-texto-g__texto.p-4
-        p.mb-0 La evaluación de operaciones en almacén es un proceso que integra métodos cuantitativos, como el análisis de datos numéricos y la medición de indicadores clave de desempeño (KPIs); por ejemplo, la eficiencia de recepción, el porcentaje de ocupación del almacén, la exactitud del inventario, la productividad por hora y el porcentaje de órdenes perfectas, con métodos cualitativos, que consideran el criterio y la experiencia de los expertos para identificar amenazas, vulnerabilidades y oportunidades de mejora en los procesos. 
+        p.mb-0 La evaluación de operaciones en almacén es un proceso que integra métodos cuantitativos, como el análisis de datos numéricos y la medición de indicadores clave de desempeño (<em>KPI´s</em>); por ejemplo, la eficiencia de recepción, el porcentaje de ocupación del almacén, la exactitud del inventario, la productividad por hora y el porcentaje de órdenes perfectas, con métodos cualitativos, que consideran el criterio y la experiencia de los expertos para identificar amenazas, vulnerabilidades y oportunidades de mejora en los procesos. 
     
     separador
     
@@ -360,7 +360,7 @@
               figure
                 img(src="@/assets/curso/tema1/29.png", data-aos="zoom-in")
               div.p-3
-                h4 <em><em>six sigma</em></em>
+                h4 <em><em>Six Sigma</em></em>
                 p Metodología para reducir variabilidad y errores:
                 ul.ms-3.lista-ul--color.lista-ul--separador
                   li.d-flex 

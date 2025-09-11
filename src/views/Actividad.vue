@@ -22,8 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> validar el conocimiento adquirido sobre la evaluación de operaciones, el análisis de resultados y la mejora continua.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
