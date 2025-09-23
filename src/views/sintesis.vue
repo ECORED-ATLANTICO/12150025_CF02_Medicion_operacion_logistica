@@ -6,7 +6,7 @@
     .row.justify-content-center.bg-color-2.tarjeta.p-5
       .col-lg-10.mb-5.bgs.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis del componente formativo “Evaluación de las operaciones logísticas de almacén” se ofrece una visión general de la evaluación de las operaciones en almacén, los indicadores de desempeño, el análisis de los resultados y su informe correspondiente; y la implementación de mejora continua.Evaluación de operaciones en almacén Concepto Procedimiento Métodos de evaluación Indicadores de desempeño Tipos Tipos de variables Técnicas de cálculo  Tipos de desviaciones o hallazgos Validación y estandarización Análisis de resultados Metodologías estructuradas Técnicas de análisis Informe de resultados Estructura Técnicas de redacción y presentación Mejora continua en almacén Concepto Acciones y estrategias")
+          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis del componente formativo “Evaluación de las operaciones logísticas de almacén” se ofrece una visión general de la evaluación de las operaciones en almacén, los indicadores de desempeño, el análisis de los resultados y su informe correspondiente; y la implementación de mejora continua.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

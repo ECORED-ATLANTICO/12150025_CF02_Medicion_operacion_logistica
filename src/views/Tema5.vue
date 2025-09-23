@@ -33,7 +33,7 @@
                 p.text-center.mb-0 Minimizar errores (inventarios inexactos y pedidos equivocados).
               .bg-color-white.p-4.h-100.box-shadow
                 img(src='@/assets/curso/tema5/5.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                p.text-center.mb-0 Aumentar la productividad con los mismos recursos
+                p.text-center.mb-0 Aumentar la productividad con los mismos recursos.
               .bg-color-white.p-4.h-100.box-shadow
                 img(src='@/assets/curso/tema5/6.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 p.text-center.mb-0 Eliminar desperdicios (sobreprocesamiento, movimientos innecesarios y esperas).
@@ -87,7 +87,7 @@
             .row.p-4.align-items-center
               .col-md-8.mb-4.mb-md-0
                 h4 Capacitación del personal
-                p Capacitar en buenas prácticas logísticas y usar simulaciones o gamificación para reforzar habilidades
+                p Capacitar en buenas prácticas logísticas y usar simulaciones o gamificación para reforzar habilidades.
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema5/11.png', alt='Texto que describa la imagen')
