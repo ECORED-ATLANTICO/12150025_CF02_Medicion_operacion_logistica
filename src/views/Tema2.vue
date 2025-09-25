@@ -213,7 +213,7 @@
                       p.mb-0 Fórmula: fecha de entrega del pedido − fecha de recepción del pedido.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Mide el tiempo total desde que se genera una orden hasta que es entregada al cliente.
+                      p.mb-0 Mide el tiempo total que transcurre desde que se genera una orden de pedido hasta que dicha orden es completada y entregada al cliente.
               tr.bg-color-9
                 td Productividad por estación de trabajo
                 td
@@ -223,7 +223,7 @@
                       p.mb-0 Fórmula: unidades procesadas / hora / estación.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Evalúa la productividad y eficiencia de cada estación dentro del proceso logístico.
+                      p.mb-0 Clave para evaluar la productividad y eficiencia de cada estación dentro de un proceso logístico.
               tr
                 td(rowspan="2") De calidad
                 td Precisión de registros de inventario
@@ -234,7 +234,7 @@
                       p.mb-0 Fórmula: registros correctos / conteos totales x 100.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Compara registros de inventario con el inventario físico real.
+                      p.mb-0 Mide qué tan precisos son los registros de inventario comparados con el inventario físico real.
               tr.bg-color-9
                 td Cumplimiento de especificaciones de almacenaje
                 td
@@ -252,10 +252,10 @@
                   ul.lista-ul--color.lista-ul--separador
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Fórmula: horas hombre invertidas / unidades movidas x 100.
+                      p.mb-0 Fórmula: total de horas hombre invertidas / número total de unidades movidas x 100.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Mide la eficiencia en actividades como <em>picking</em>, embalaje, carga y descarga.
+                      p.mb-0 Permite medir la eficiencia del personal y procesos en actividades como <em>picking</em>, embalaje, carga y descarga
               tr.bg-color-9
                 td Rendimiento de equipos
                 td
@@ -265,7 +265,7 @@
                       p.mb-0 Fórmula: horas productivas / horas disponibles x 100.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Evalúa la eficiencia de maquinaria en almacenamiento, transporte interno, carga y descarga.
+                      p.mb-0 Mide la eficiencia y productividad de los equipos y maquinaria utilizados en operaciones logísticas, como almacenamiento, transporte interno, carga y descarga.
               tr
                 td(rowspan="2") De seguridad
                 td Tasa total de incidentes registrables
@@ -276,7 +276,7 @@
                       p.mb-0 Fórmula: N° incidentes x 200,000 / h trabajadas.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Refleja la frecuencia de lesiones y enfermedades laborales registrables.
+                      p.mb-0 Refleja la frecuencia de lesiones y enfermedades laborales registrables por cada 100 empleados a tiempo completo en un año.
               tr.bg-color-9
                 td Reportes de cuasi accidentes
                 td
@@ -286,7 +286,7 @@
                       p.mb-0 Fórmula: N° cuasi incidentes x 1.000.000 / h trabajadas x 100.
                     li.d-flex
                       i.fas.fa-circle-check.bg-color-5
-                      p.mb-0 Mide incidentes evitados, cultura de seguridad y reducción de riesgos laborales.
+                      p.mb-0 Mide la cantidad de incidentes evitados reportados, mejora de la cultura de seguridad y reducción de riesgos laborales en la organización.
 
     .bg-color-10.tarjeta.mb-5
       .px-4.px-md-5.py-4

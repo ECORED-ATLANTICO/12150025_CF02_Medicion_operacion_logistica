@@ -15,7 +15,7 @@
             figure
               img(src="@/assets/curso/intro/1.png", data-aos="zoom-in")
           .col-lg-8
-            p(data-aos="fade-left") El componente formativo en evaluación de operaciones en almacén proporciona las herramientas esenciales para optimizar los procesos logísticos, garantizando eficiencia y calidad. A través del estudio de conceptos, procedimientos y métodos de evaluación, se busca entender cómo medir el desempeño de las actividades almacenistas, identificando áreas de mejora. Además, se analizan indicadores clave que permiten cuantificar el rendimiento, utilizando técnicas de cálculo y validación para asegurar datos confiables. Este enfoque sistemático facilita la detección de desviaciones y la implementación de correctivos, asegurando que las operaciones cumplan con los estándares establecidos y contribuyan a la productividad global.
+            p(data-aos="fade-left") El componente formativo “Evaluación de operaciones logísticas en almacén”, proporciona las herramientas esenciales para optimizar los procesos logísticos, garantizando eficiencia y calidad. A través del estudio de conceptos, procedimientos y métodos de evaluación, se busca entender cómo medir el desempeño de las actividades almacenistas, identificando áreas de mejora. Además, se analizan indicadores clave que permiten cuantificar el rendimiento, utilizando técnicas de cálculo y validación para asegurar datos confiables. Este enfoque sistemático facilita la detección de desviaciones y la implementación de correctivos, asegurando que las operaciones cumplan con los estándares establecidos y contribuyan a la productividad global.
         
             .bg-color-1.tarjeta.p-4(data-aos="fade-left")
               .row.align-items-center

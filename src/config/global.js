@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Evaluación de las operaciones logísticas de almacén.',
+    Name: 'Evaluación de las operaciones logísticas de almacén',
     Description:
-      'Este componente formativo aborda la evaluación de operaciones en almacén, incluyendo conceptos, procedimientos y métodos de evaluación, así como indicadores de desempeño, técnicas de cálculo y análisis de resultados. También cubre la estructuración de informes y estrategias de mejora continua, con el fin de optimizar procesos, identificar desviaciones y aumentar la eficiencia en la gestión logística.',
+      'Este componente formativo aborda la evaluación de las operaciones logísticas en almacén, incluyendo conceptos, procedimientos y métodos de evaluación, así como indicadores de desempeño, técnicas de cálculo y análisis de resultados. También cubre la estructuración de informes y estrategias de mejora continua, con el fin de optimizar procesos, identificar desviaciones y aumentar la eficiencia en la gestión logística.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
