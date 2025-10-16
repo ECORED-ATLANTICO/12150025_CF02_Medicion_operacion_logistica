@@ -306,12 +306,6 @@ export default {
     },
     {
       referencia:
-        'Aula Centro de Formación. (2022). <em>Gestión de almacén y logística</em>. ',
-      link:
-        'https://dl.dropboxusercontent.com/scl/fi/ucro9rrtkrv682y7s1qt6/Curso-Gesti-n-de-Almanc-n-y-Log-stica-Aula-Centro-Formaci-n.pdf?rlkey=azxypu2r27s5m21odlj9ymwys&dl=0',
-    },
-    {
-      referencia:
         'Mecalux. (2022). <em>9 indicadores de bodega para medir la gestión logística</em>. ',
       link: 'https://www.mecalux.com.co/blog/indicadores-bodega',
     },
@@ -319,6 +313,12 @@ export default {
       referencia:
         'Mecalux. (2021). <em>La mejora continua y su aplicación en logística</em>. ',
       link: 'https://www.mecalux.com.co/blog/mejora-continua',
+    },
+    {
+      referencia:
+        'Mora García, L. A. (2008). <em>Indicadores de la gestión logística (2.ª ed.). Ecoe Ediciones.</em> ',
+      link:
+        'https://www.ecoeediciones.com/wp-content/uploads/2015/09/Indicadores-de-la-gestion-logistica.pdf',
     },
     {
       referencia:
